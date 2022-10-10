@@ -29,8 +29,11 @@ input{
     width: 20%; 
     height: 50px;
     margin: 4px 5px;
-    background-color:rgba(6, 14, 34, 0.977); color: white;font-size:1em ;
-    border-radius: 2px;
+  border:2px solid rgba(24, 38, 75, 0.907) ;
+/*    background-color:rgba(24, 38, 75, 0.907); */
+    background-color:rgba(6, 14, 34, 0.977); 
+    color: white;font-size:1em ;
+    border-radius: 5px;
 }
 input:hover{
     background-color:rgba(24, 38, 75, 0.907);
