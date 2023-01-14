@@ -6,7 +6,7 @@ body{
 }
 
 .calc{
-    width: 40vw; 
+    width: 50vw; 
     /* height:65vh;  */
     border: 2px solid black; border-radius: 10px; 
     background-color: rgba(6, 14, 34, 0.929) ; text-align: center; color: rgb(246, 250, 250);
@@ -55,4 +55,9 @@ input:hover{
 #result{
     width: 30%;
     background-color: rgba(15, 200, 68, 0.984);
+}
+@media(max-width:450px){
+  .calc{
+    width:80%;
+  }
 }
